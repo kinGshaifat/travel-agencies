@@ -9,15 +9,14 @@
 <head>
 <title>sign up</title>
 <!--meta tags -->
-	<meta charset="UTF-8">
+<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--//meta tags ends here-->
 <!--booststrap-->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" >
- 
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" > 
 <!--//booststrap end-->
 
 <!-- font-awesome icons -->
@@ -34,10 +33,32 @@
 	<body class="subpage">
 
 		<!-- Header -->
-			<header id="header" class="alt">
-				<div class="logo"><a href="index.php">Knowledge Management System</a></div>
-				<a href="#menu"><span>Menu</span></a>
-			</header>
+		<div class="banner">
+		<div class="top-nav">
+	        <div class="container">
+			<div class="navbar-header">
+	   			 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	                <span class="sr-only">Toggle navigation</span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+	                <span class="icon-bar"></span>
+                </button>
+              </div>
+	   			<div id="navbar" class="navbar-collapse collapse">
+	              <ul class="nav navbar-nav">
+	                  <li><a href="index.html" class="active">Home</a></li>
+					  <li><a href="#about"  class="scroll">About</a></li>
+					  <li><a href="#service"  class="scroll">Services</a></li>
+					   <li><a href="#team"  class="scroll">Team</a></li>
+					   <li><a href="#gallery"  class="scroll">Gallery</a></li>
+					   <li><a href="#contact"  class="scroll">Contact</a></li>
+
+	              </ul>
+	            </div>
+              </div>
+			</div>
+	
+				
 
 		<!-- Nav -->
 			
